@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio -- Suyash Sharma</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Suyash Sharma</div>
+      <ul class="navigation">
+        <li><a href="#home" style="color:inherit;text-decoration:none;">Home</a></li>
+        <li><a href="#about" style="color:inherit;text-decoration:none;">About</a></li>
+        <li><a href="#projects" style="color:inherit;text-decoration:none;">Projects</a></li>
+        <li><a href="#contact" style="color:inherit;text-decoration:none;">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <img src="suyash.jpg" alt="Suyash Sharma" class="hero-img">
+      <div class="hero-content">
+        <h1>Hi, I'm Suyash Sharma</h1>
+        <p>Web Developer | UI/UX Enthusiast | Problem Solver</p>
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate web developer with a knack for building beautiful and functional websites. I love turning ideas into reality using code, and I'm always eager to learn new technologies and improve my skills.
+      </p>
+      <div class="skills">
+        <span class="skill">HTML5</span>
+        <span class="skill">CSS3</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">React</span>
+        <span class="skill">Node.js</span>
+        <span class="skill">UI/UX</span>
+        <span class="skill">Git</span>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-title">Personal Portfolio</div>
+          <div class="project-desc">A responsive portfolio website to showcase my skills and projects, built with HTML, CSS, and JavaScript.</div>
+          <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-title">Task Manager App</div>
+          <div class="project-desc">A full-stack task manager app with user authentication, built using React and Node.js.</div>
+          <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-title">Weather Dashboard</div>
+          <div class="project-desc">A weather dashboard that fetches real-time data from an API and displays it in a user-friendly UI.</div>
+          <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <form class="contact-form" autocomplete="off">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Suyash Sharma. All rights reserved.
+  </footer>
+</body>
+</html>
